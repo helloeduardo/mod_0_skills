@@ -1,0 +1,13 @@
+my_ciabatta_hummus_sandwich
+
+attributes:
+bread_type = "ciabatta"
+is_toasted = false
+price = 7.98
+side_quantity = 1
+
+methods:
+discount returns price = 3.99
+upgrade returns price = 8.97 and side_quantity = 2
+toast returns is_toasted = true
+substitute_bread returns bread_type = "sourdough"
