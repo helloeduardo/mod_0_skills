@@ -1,0 +1,13 @@
+class Sandwich
+
+attributes:
+bread_type (string)
+is_toasted (boolean)
+price (float)
+side_quantity (integer)
+
+methods:
+discount (takes the price and modifies it to be half)
+upgrade (increments side_quantity by 1 and adds .99 to the price)
+toast (modifies the is_toasted attribute to true)
+substitute_bread (modifies the bread_type)
