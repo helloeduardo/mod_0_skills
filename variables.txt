@@ -1,0 +1,9 @@
+food = "mango"
+is_delicious = true
+food = "green beans"
+num2 = 3
+num7 = 20
+quotient = num7 / num 2
+songs = ["Into You", "thank u, next"]
+songs.shift
+food.length
