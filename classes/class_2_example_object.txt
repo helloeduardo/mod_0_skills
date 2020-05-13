@@ -1,0 +1,13 @@
+my_garlic_pesto_pizza
+
+attributes:
+crust_type = "regular"
+toppings = ["garlic", "pesto", "mozzarella"]
+inch_size (integer) = 17
+is_spicy (boolean) = false
+
+methods:
+change_crust returns crust_type = "thin"
+add_jalapeno returns is_spicy = true and toppings = ["garlic", "pesto", "mozzarella", "jalapeno"]
+increase_size returns inch_size = 20
+remove_alliums returns toppings = ["pesto", "mozzarella"]
