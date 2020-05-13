@@ -1,0 +1,13 @@
+class Pizza
+
+attributes:
+crust_type (string)
+toppings (array)
+inch_size (integer)
+is_spicy (boolean)
+
+methods:
+change_crust (modifies the crust_type)
+add_jalapeno (modifies the is_spicy and toppings attribute)
+increase_size (adds 3 to inch_size)
+remove_alliums (modifies toppings attribute)
